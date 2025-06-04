@@ -1,1 +1,1 @@
-# CPP
+ I am an aspiring coder with a strong eagerness to learn new programming languages and develop a wide range of skills to carve my path in the world of programming. This repository is my way of staying disciplined—committing to coding daily and striving to learn something new every day.
