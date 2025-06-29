@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 int main(){
-    int a,b,c;
+    float a,b,c;
     float root,root1;
     cout<<"Enter the value of a,b and c from the quadratic equation ";
     cin>>a>>b>>c;
