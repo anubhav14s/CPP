@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     string info;
-    cout<<"Tell something about yourself";
+    cout<<"Tell me something about yourself";
     getline(cin,info);
     cout<<info;
 }
