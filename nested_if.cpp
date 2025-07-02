@@ -2,7 +2,7 @@
 using namespace std ;
 int main(){
     int a,b,c;
-    cout<<"Enter the three numbers you wanna compare ";
+    cout<<"Enter the three numbers to be compared ";
     cin>>a>>b>>c;
     if(a>b&&a>c){
         cout<<"The greatest number is a "<<a<<endl;}
