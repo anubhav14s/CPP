@@ -8,6 +8,6 @@ int main(){
     cin>>a>>b>>c;
     root=(-b+sqrt(pow(b,2)-4*a*c))/(2*a);
     root1=(-b-sqrt(pow(b,2)-4*a*c))/(2*a);
-    cout<<"The two roots of the quadratic equation are "<<root<<","<<root1;
+    cout<<"The two roots of the quadratic equation are "<<root<<" "<<root1;
     return 0;
 }
