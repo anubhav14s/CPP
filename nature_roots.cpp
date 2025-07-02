@@ -20,7 +20,7 @@ int main()
     }
     else
     {
-        cout << "Roots are real and unequal" << endl;
+        cout << "Roots are real but unequal" << endl;
         cout << -b + sqrt(d) / (2 * a) << (-b - sqrt(d)) / (2 * a);
     }
     return 0;
