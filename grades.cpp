@@ -22,6 +22,6 @@ int main(){
         cout<<"you have got D grade "<<endl;
 
     }else{
-        cout<<"You have failed the exams";
+        cout<<"You have failed the exam";
     }
 }
