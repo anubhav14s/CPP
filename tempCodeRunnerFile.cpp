@@ -1,10 +1,13 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-    int x=INT16_MAX;
-    x++;
-    cout<<x;
-    int y=INT16_MIN;
-    y--;
-    cout<<y;
+    int num,dig;
+    cout<<"Enter the number";
+    cin>>num;
+    while(num!=0){
+        dig=num%10;
+        cout<<dig<<" ";
+        num/10;
+    }
+    return 0;
 }
