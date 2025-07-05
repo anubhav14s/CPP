@@ -5,6 +5,6 @@ int main(){
     int sum=0;
     for(int x:A)
     sum+=x;
-    cout<<"The sum of all the elements of an array is "<<sum<<endl;
+    cout<<"The sum of all the elements of the array is "<<sum<<endl;
 
 }
