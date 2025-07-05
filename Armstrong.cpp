@@ -20,7 +20,7 @@ int main()
     }
     
     if(sum==original){
-        cout<<original<<" is an Armstrong number "<<endl;
+        cout<<original<<" is an Armstrong Number "<<endl;
     }else{
 
         cout<<original<<" is not an Armstrong number "<<endl;
