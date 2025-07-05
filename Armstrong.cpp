@@ -23,6 +23,6 @@ int main()
         cout<<original<<" is an Armstrong Number "<<endl;
     }else{
 
-        cout<<original<<" is not an Armstrong number "<<endl;
+        cout<<original<<" is not an Armstrong Number "<<endl;
     }
 }
