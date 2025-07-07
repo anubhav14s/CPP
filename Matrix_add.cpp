@@ -35,5 +35,6 @@ int main()
         for (int j=0;j<c;j++){
             cout<<C[i][j];
         }
+        cout<<endl;
     }
 }
