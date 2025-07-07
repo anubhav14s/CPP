@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
    int r1,r2,c1,c2;
-   cout<<"Enter the number of rows for matrix ";
+   cout<<"Enter the number of rows for matrix 1";
    cin>>r1;
    cout<<"Enter the number of columns for matrix 1";
    cin>>c1;
