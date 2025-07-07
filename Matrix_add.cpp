@@ -25,4 +25,10 @@ int main()
         }
         cout << endl;
     }
+
+    for (int i=0;i<r;i++){
+        for (int j=0;j<c;j++){
+            C[i][j]=A[i][j]+B[i][j];
+        }
+    }
 }
