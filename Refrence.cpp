@@ -6,6 +6,7 @@ int main(){
     cout<<x<<endl;
     x++;
     y++;
-    cout<<x<<endl;
-    cout<<y<<endl;
+    cout<<"The value of x is "<<x<<endl;
+    cout<<"The value of y is "<<y<<endl;
+    
 }
