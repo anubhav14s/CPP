@@ -4,6 +4,6 @@ using namespace std;
 int main(){
     string s1;
     cout<<"Enter a string "<<endl;
-    cin>>s1;
+    getline(cin,s1);
     cout<<s1<<endl;
 }
