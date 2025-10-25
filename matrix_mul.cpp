@@ -12,18 +12,25 @@ int main(){
    cin>>c2;
    int A[r1][c1];
    int B[r2][c2]; 
-   int C[r1][c2]={0};
+   int C[r1][c2];
+   cout <<"Enter the elements of A matrix "<<endl;
    for (int i=0;i<r1;i++){
     for(int j=0;j<c1;j++){
         cin>>A[i][j];
     }
    }
+   cout <<"Enter the elements of B matrix "<<endl;
    for (int i=0;i<r2;i++){
     for(int j=0;j<c2;j++){
         cin>>B[i][j];
     }
     cout<<endl;
    }
+   for (int i = 0; i < r1; i++)
+        for (int j = 0; j < c2; j++)
+            C[i][j] = 0;
+
+
     for(int i=0;i<r1;i++){
         for (int j=0;j<c2;j++){
             for (int k=0;k<c1;k++){
