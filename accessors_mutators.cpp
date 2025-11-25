@@ -74,4 +74,5 @@ int main()
     r1.getbreadth(5);
 
     cout << "Area is " << r1.area() << endl;
+    return 0;
 }
