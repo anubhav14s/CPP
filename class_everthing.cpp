@@ -22,12 +22,14 @@ public:
 };
 int main()
 {
-    Rectangle r1(10, 10);
+    Rectangle r1(-10, 10);
     cout << "Area of r1 is " << r1.area() << endl;
     if (r1.isSquare())
     {
         cout << "Given rectangle is also a square." << endl;
     }
+    r1.setLength(-10);
+    r1.setBreadth(10);
 }
 Rectangle::Rectangle()
 {
@@ -36,13 +38,13 @@ Rectangle::Rectangle()
 }
 Rectangle::Rectangle(int l, int b)
 {
-    length = l;
-    breadth = b;
+    setLength(l);
+    setBreadth(b);
 }
 Rectangle::Rectangle(Rectangle &r)
 {
-    length = r.length;
-    breadth = r.breadth;
+    setLength(r.length);
+    setBreadth(r.breadth);
 }
 
 void Rectangle ::setLength(int l)
