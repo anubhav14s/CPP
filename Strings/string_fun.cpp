@@ -6,9 +6,9 @@ int main(){
     cout<<s<<endl;
     string s1={" are you fine"};
     s.append(s1);
-    s.insert(6," anubhav ");
+    s.insert(6,"anubhav ");
     cout<<s<<endl;
-    s.replace(6,8,"Rahul");
+    s.replace(6,7,"Rahul");
     cout<<s<<endl;
     s.push_back('?');
     cout<<s<<endl;
